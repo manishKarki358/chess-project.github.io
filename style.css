@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
+}
+.board-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 600px;
+    width: 600px;
+}
+.chess-board{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(8,72px);
+    grid-template-rows: repeat(8,72px);
+   
+    
+}
+#a1,#b2,#c3,#d4,#e5,#f6,#g7,#h8,#c1,#e1,#g1,#a3,#a5,#a7,#b4,#b6,#b8,#d8,#f8,#c7,#e7,#g7,#h6,#h4,#h2,#f2,#d2,#b2,#g3,#g5,#d6,#f6,#c5,#e3,#f4{
+    background-color: rgb(0, 128, 0);
+}
+#b1,#d1,#f1,#h1,#a2,#c2,#e2,#g2,#b3,#d3,#f3,#h3,#a4,#c4,#e4,#g4,#b5,#d5,#f5,#h5,#a6,#c6,#e6,#g6,#b7,#d7,#f7,#h7,#a8,#c8,#e8,#g8{
+    background-color: white;
+}
+
+
+/*#a1:hover,#b2:hover,#c3:hover,#d4:hover,#e5:hover,#f6:hover,#g7:hover,#h8:hover,#c1:hover,#e1:hover,#g1:hover,#a3:hover,#a5:hover,#a7:hover,#b4:hover,#b6:hover,#b8:hover,#d8:hover,#f8:hover,#c7:hover,#e7:hover,#g7:hover,#h6:hover,#h4:hover,#h2:hover,#f2:hover,#d2:hover,#b2:hover,#g3:hover,#g5:hover,#d6:hover,#f6:hover,#c5:hover,#e3:hover,#f4:hover{
+    color: rgb(58, 54, 54);
+}*/
+
+:is(#a1,#b2,#c3,#d4,#e5,#f6,#g7,#h8,#c1,#e1,#g1,#a3,#a5,#a7,#b4,#b6,#b8,#d8,#f8,#c7,#e7,#g7,#h6,#h4,#h2,#f2,#d2,#b2,#g3,#g5,#d6,#f6,#c5,#e3,#f4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+:is(#a1,#b2,#c3,#d4,#e5,#f6,#g7,#h8,#c1,#e1,#g1,#a3,#a5,#a7,#b4,#b6,#b8,#d8,#f8,#c7,#e7,#g7,#h6,#h4,#h2,#f2,#d2,#b2,#g3,#g5,#d6,#f6,#c5,#e3,#f4):hover{
+box-shadow: 5px 5px 50px crimson;
+    }
+:is(#b1,#d1,#f1,#h1,#a2,#c2,#e2,#g2,#b3,#d3,#f3,#h3,#a4,#c4,#e4,#g4,#b5,#d5,#f5,#h5,#a6,#c6,#e6,#g6,#b7,#d7,#f7,#h7,#a8,#c8,#e8,#g8){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:is(#b1,#d1,#f1,#h1,#a2,#c2,#e2,#g2,#b3,#d3,#f3,#h3,#a4,#c4,#e4,#g4,#b5,#d5,#f5,#h5,#a6,#c6,#e6,#g6,#b7,#d7,#f7,#h7,#a8,#c8,#e8,#g8):hover{
+    box-shadow: 5px 5px 50px rgb(47, 3, 88);
+    }
+.pawns{
+    height: 55px;
+    width: 45px;
+    
+}
+.knights{
+    height: 58px;
+    width: 65px;
+    
+}
+.bishops{
+    height: 60px;
+    width: 55px;
+    
+}
+.rooks{
+    height: 62px;
+    width: 65px;
+
+    
+}
+.queens{
+    height: 67px;
+    width: 70px;    
+}
+.kings{
+    height: 80px;
+    width: 75px;  
+}
+.black-pawns{
+    height: 50px;
+    width: 40px;
+}
+.white-knights{
+    height: 70px;
+    width: 70px;
+}
+.white-rooks{
+    height: 65px;
+    width: 65px;
+}
+.white-pawns{
+    height: 55px;
+    width: 40px;
+}
+.white-bishops{
+    height: 70px;
+    width: 70px;
+}
