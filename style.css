@@ -27,7 +27,7 @@ height: 100vh;
     
 }
 #a1,#b2,#c3,#d4,#e5,#f6,#g7,#h8,#c1,#e1,#g1,#a3,#a5,#a7,#b4,#b6,#b8,#d8,#f8,#c7,#e7,#g7,#h6,#h4,#h2,#f2,#d2,#b2,#g3,#g5,#d6,#f6,#c5,#e3,#f4{
-    background-color: rgb(0, 128, 0);
+    background-color: rgb(107, 127, 164);
 }
 #b1,#d1,#f1,#h1,#a2,#c2,#e2,#g2,#b3,#d3,#f3,#h3,#a4,#c4,#e4,#g4,#b5,#d5,#f5,#h5,#a6,#c6,#e6,#g6,#b7,#d7,#f7,#h7,#a8,#c8,#e8,#g8{
     background-color: white;
@@ -44,17 +44,13 @@ height: 100vh;
     align-items: center;
     
 }
-:is(#a1,#b2,#c3,#d4,#e5,#f6,#g7,#h8,#c1,#e1,#g1,#a3,#a5,#a7,#b4,#b6,#b8,#d8,#f8,#c7,#e7,#g7,#h6,#h4,#h2,#f2,#d2,#b2,#g3,#g5,#d6,#f6,#c5,#e3,#f4):hover{
-box-shadow: 5px 5px 50px crimson;
-    }
+
 :is(#b1,#d1,#f1,#h1,#a2,#c2,#e2,#g2,#b3,#d3,#f3,#h3,#a4,#c4,#e4,#g4,#b5,#d5,#f5,#h5,#a6,#c6,#e6,#g6,#b7,#d7,#f7,#h7,#a8,#c8,#e8,#g8){
     display: flex;
     justify-content: center;
     align-items: center;
 }
-:is(#b1,#d1,#f1,#h1,#a2,#c2,#e2,#g2,#b3,#d3,#f3,#h3,#a4,#c4,#e4,#g4,#b5,#d5,#f5,#h5,#a6,#c6,#e6,#g6,#b7,#d7,#f7,#h7,#a8,#c8,#e8,#g8):hover{
-    box-shadow: 5px 5px 50px rgb(47, 3, 88);
-    }
+
 .pawns{
     height: 55px;
     width: 45px;
@@ -85,8 +81,8 @@ box-shadow: 5px 5px 50px crimson;
     width: 75px;  
 }
 .black-pawns{
-    height: 50px;
-    width: 40px;
+    height: 70px;
+    width: 60px;
 }
 .white-knights{
     height: 70px;
@@ -97,10 +93,15 @@ box-shadow: 5px 5px 50px crimson;
     width: 65px;
 }
 .white-pawns{
-    height: 55px;
-    width: 40px;
+    height: 70px;
+    width: 60px;
 }
 .white-bishops{
     height: 70px;
     width: 70px;
+}
+
+.piece{
+    height: 70px;
+    width: 65px;
 }
