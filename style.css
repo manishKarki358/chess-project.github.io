@@ -27,7 +27,7 @@ height: 100vh;
     
 }
 #a1,#b2,#c3,#d4,#e5,#f6,#g7,#h8,#c1,#e1,#g1,#a3,#a5,#a7,#b4,#b6,#b8,#d8,#f8,#c7,#e7,#g7,#h6,#h4,#h2,#f2,#d2,#b2,#g3,#g5,#d6,#f6,#c5,#e3,#f4{
-    background-color: rgb(107, 127, 164);
+    background-color: rgb(33, 63, 117);
 }
 #b1,#d1,#f1,#h1,#a2,#c2,#e2,#g2,#b3,#d3,#f3,#h3,#a4,#c4,#e4,#g4,#b5,#d5,#f5,#h5,#a6,#c6,#e6,#g6,#b7,#d7,#f7,#h7,#a8,#c8,#e8,#g8{
     background-color: white;
@@ -56,11 +56,9 @@ height: 100vh;
     width: 45px;
     
 }
-.knights{
-    height: 58px;
-    width: 65px;
+
     
-}
+
 .bishops{
     height: 60px;
     width: 55px;
@@ -73,35 +71,37 @@ height: 100vh;
     
 }
 .queens{
-    height: 67px;
-    width: 70px;    
+    height: 65px;
+    width: 68px;    
 }
 .kings{
     height: 80px;
     width: 75px;  
 }
-.black-pawns{
-    height: 70px;
-    width: 60px;
-}
-.white-knights{
-    height: 70px;
-    width: 70px;
-}
-.white-rooks{
-    height: 65px;
-    width: 65px;
-}
-.white-pawns{
-    height: 70px;
-    width: 60px;
-}
-.white-bishops{
-    height: 70px;
-    width: 70px;
-}
+
 
 .piece{
     height: 70px;
     width: 65px;
+}
+.turn{
+    padding: 25px;
+    background-color: grey;
+    margin-right: 50px;
+}
+.turn-to-move{
+    font-size: 2rem;
+    
+}
+.colr{
+    height: 25px;
+    width: 25px;
+    background-color:white;
+}
+.knights{
+    height: 68px;
+    width: 65px;
+}
+.bishops{
+    width:62px;
 }

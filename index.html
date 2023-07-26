@@ -10,82 +10,87 @@
 
 </head>
 <body>
-    <div class="turn-to-move">white</div>
+    <div class="turn">
+
+        <h1>Turn to move</h1>
+        <div class="turn-to-move">white</div>
+        <span class="colr"></span>
+    </div>
     <main class="chess-container">
         <section class="chess-board">
 
-<div id="a8"><img class="rooks piece  black R black-rooks" src="./black-rook.png" alt=""></div>
-<div id="b8"><img class="knights piece  black N black-knights" src="./black-knight.png" alt=""></div>
-<div id="c8"><img class="bishops piece black B black-bishops" src="./black-bishop.png" alt=""></div>
-<div id="d8"><img class="queens piece  black Q black-queens" src="./black-queen.png" alt=""></div>
-<div id="e8"><img class="kings piece  black K black-kings" src="./black-king.png" alt=""></div>
-<div id="f8"><img class="bishops piece  black B black-bishops" src="./black-bishop.png" alt=""></div>
-<div id="g8"><img class="knights piece  black N black-knights" src="./black-knight.png" alt=""></div>
-<div id="h8"><img class="rooks piece  black R black-rooks" src="./black-rook.png" alt=""></div>
+<div id="a8" data-file="a" data-rank="8" ><img class="rooks piece  black R black-rooks" src="./black-rook.png" alt=""></div>
+<div id="b8" data-file="b" data-rank="8" ><img class="knights piece  black N black-knights" src="./black-knight.png" alt=""></div>
+<div id="c8" data-file="c" data-rank="8" ><img class="bishops piece black B black-bishops" src="./black-bishop.png" alt=""></div>
+<div id="d8" data-file="d" data-rank="8" ><img class="queens piece  black Q black-queens" src="./black-queen.png" alt=""></div>
+<div id="e8" data-file="e" data-rank="8" ><img class="kings piece  black K black-kings" src="./black-king.png" alt=""></div>
+<div id="f8" data-file="f" data-rank="8" ><img class="bishops piece  black B black-bishops" src="./black-bishop.png" alt=""></div>
+<div id="g8" data-file="g" data-rank="8" ><img class="knights piece  black N black-knights" src="./black-knight.png" alt=""></div>
+<div id="h8" data-file="h" data-rank="8" ><img class="rooks piece  black R black-rooks" src="./black-rook.png" alt=""></div>
 
-<div id="a7"> <img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
-<div id="b7"><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
-<div id="c7"><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
-<div id="d7"><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
-<div id="e7"><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
-<div id="f7"><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
-<div id="g7"><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
-<div id="h7"><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
+<div id="a7" data-file="a" data-rank="7" > <img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
+<div id="b7" data-file="b" data-rank="7" ><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
+<div id="c7" data-file="c" data-rank="7" ><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
+<div id="d7" data-file="d" data-rank="7" ><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
+<div id="e7" data-file="e" data-rank="7" ><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
+<div id="f7" data-file="f" data-rank="7" ><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
+<div id="g7" data-file="g" data-rank="7" ><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
+<div id="h7" data-file="h" data-rank="7" ><img class="pawns piece  P black black-pawns" src="./black-pawn.png" alt="black pawns"></div>
 
-<div id="a6"></div>
-<div id="b6"></div>
-<div id="c6"></div>
-<div id="d6"></div>
-<div id="e6"></div>
-<div id="f6"></div>
-<div id="g6"></div>
-<div id="h6"></div>
+<div id="a6" data-file="a" data-rank="6" ></div>
+<div id="b6" data-file="b" data-rank="6" ></div>
+<div id="c6" data-file="c" data-rank="6" ></div>
+<div id="d6" data-file="d" data-rank="6" ></div>
+<div id="e6" data-file="e" data-rank="6" ></div>
+<div id="f6" data-file="f" data-rank="6" ></div>
+<div id="g6" data-file="g" data-rank="6" ></div>
+<div id="h6" data-file="h" data-rank="6" ></div>
 
-<div id="a5"></div>
-<div id="b5"></div>
-<div id="c5"></div>
-<div id="d5"></div>
-<div id="e5"></div>
-<div id="f5"></div>
-<div id="g5"></div>
-<div id="h5"></div>
+<div id="a5" data-file="a" data-rank="5" ></div>
+<div id="b5" data-file="b" data-rank="5" ></div>
+<div id="c5" data-file="c" data-rank="5" ></div>
+<div id="d5" data-file="d" data-rank="5" ></div>
+<div id="e5" data-file="e" data-rank="5" ></div>
+<div id="f5" data-file="f" data-rank="5" ></div>
+<div id="g5" data-file="g" data-rank="5" ></div>
+<div id="h5" data-file="h" data-rank="5" ></div>
 
-<div id="a4"></div>
-<div id="b4"></div>
-<div id="c4"></div>
-<div id="d4"></div>
-<div id="e4"></div>
-<div id="f4"></div>
-<div id="g4"></div>
-<div id="h4"></div>
+<div id="a4" data-file="a" data-rank="4" ></div>
+<div id="b4" data-file="b" data-rank="4" ></div>
+<div id="c4" data-file="c" data-rank="4" ></div>
+<div id="d4" data-file="d" data-rank="4" ></div>
+<div id="e4" data-file="e" data-rank="4" ></div>
+<div id="f4" data-file="f" data-rank="4" ></div>
+<div id="g4" data-file="g" data-rank="4" ></div>
+<div id="h4" data-file="h" data-rank="4" ></div>
 
-<div id="a3"></div>
-<div id="b3"></div>
-<div id="c3"></div>
-<div id="d3"></div>
-<div id="e3"></div>
-<div id="f3"></div>
-<div id="g3"></div>
-<div id="h3"></div>
+<div id="a3" data-file="a" data-rank="3" ></div>
+<div id="b3" data-file="b" data-rank="3" ></div>
+<div id="c3" data-file="c" data-rank="3" ></div>
+<div id="d3" data-file="d" data-rank="3" ></div>
+<div id="e3" data-file="e" data-rank="3" ></div>
+<div id="f3" data-file="f" data-rank="3" ></div>
+<div id="g3" data-file="g" data-rank="3" ></div>
+<div id="h3" data-file="h" data-rank="3" ></div>
 
-<div id="a2"><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
-<div id="b2"><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
-<div id="c2"><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
-<div id="d2"><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
-<div id="e2"><img class="pawns piece P white white-pawns" src="./white-pawn.png"></div>
-<div id="f2"><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
-<div id="g2"><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
-<div id="h2"><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
+<div id="a2" data-file="a" data-rank="2" ><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
+<div id="b2" data-file="b" data-rank="2" ><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
+<div id="c2" data-file="c" data-rank="2" ><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
+<div id="d2" data-file="d" data-rank="2" ><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
+<div id="e2" data-file="e" data-rank="2"><img class="pawns piece P white white-pawns" src="./white-pawn.png"></div>
+<div id="f2" data-file="f" data-rank="2" ><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
+<div id="g2" data-file="g" data-rank="2" ><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
+<div id="h2" data-file="h" data-rank="2" ><img class="pawns piece  P white white-pawns" src="./white-pawn.png"></div>
 
-<div id="a1"><img class="rooks R white white-rooks" src="white-rook.png" >
+<div id="a1" data-file="a" data-rank="1" ><img class="rooks R white white-rooks" src="white-rook.png" >
 </div>
-<div id="b1"><img class="knights piece N white white-knights" src="white-knight.png" ></div>
-<div id="c1"><img  class="bishops piece  B white white-bishops" src="white-bishop.png" ></div>
-<div id="d1"><img class="queens piece  Q white white-queens" src="white-queen.png" ></div>
-<div id="e1"><img class="kings piece K white white-kings" src="./white-king.png" ></div>
-<div id="f1"><img class="bishops piece  B white white-bishops" src="white-bishop.png" ></div>
-<div id="g1"><img class="knights piece  N white white-knights" src="white-knight.png" ></div>
-<div id="h1"><img class="rooks piece R white white-rooks" src="white-rook.png" ></div>
+<div id="b1" data-file="b" data-rank="1"><img class="knights piece N white white-knights" src="white-knight.png" ></div>
+<div id="c1" data-file="c" data-rank="1"><img  class="bishops piece  B white white-bishops" src="white-bishop.png" ></div>
+<div id="d1" data-file="d" data-rank="1"><img class="queens piece  Q white white-queens" src="white-queen.png" ></div>
+<div id="e1" data-file="e" data-rank="1"><img class="kings piece K white white-kings" src="./white-king.png" ></div>
+<div id="f1" data-file="f" data-rank="1"><img class="bishops piece  B white white-bishops" src="white-bishop.png" ></div>
+<div id="g1" data-file="g" data-rank="1"><img class="knights piece  N white white-knights" src="white-knight.png" ></div>
+<div id="h1" data-file="h" data-rank="1"><img class="rooks piece R white white-rooks" src="white-rook.png" ></div>
 
         </section>
     </main>
